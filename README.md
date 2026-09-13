@@ -1,15 +1,15 @@
-# Pokemon Tool
+# PIVNote
 ## What is it?
-This is just a CLI for a stat calculator that has saves. It calculates the final stats or possible IV's of a Pokemon, which you can save to a `.csv` file.
+Pokemon IV Note taker, the name is self-explanatory. This is just a CLI for a stat calculator that has saves. It calculates the final stats or possible IV's of a Pokemon, which you can save to a `.csv` file. I mainly use it for IV's
 
-This was made solely to aid me while playing DS Pokemon games. I was motivated when my Hydreigon dropped to an ice beam from a Vanilluxe from full health, during my attempt to reach the subway boss in Pokemon Black. I couldn't find a calculator that's simple enough, so I made this ( There probably is a better one, but I was too lazy to find it ). The save feature was added also because I'm too lazy to note them manually. 
+This was made solely to aid me while playing DS Pokemon games. I was motivated when my Volcarona kept missing out on KO's, during my attempt to reach the subway boss in Pokemon Black. I couldn't find a calculator that's simple enough, so I made this ( There probably is a better one, but I was too lazy to find it ). The save feature was added also because I'm too lazy to note them manually. 
 
 This is my first useful "app" of some sort, so there are most likely going to be anomalies in the code ( I found a show_lvl variable thats never actually used ). You can find that the stat calculator is made in C, while the rest is C++. Well, most of it.
 
 ## How to build?
-You can just download the `.exe`, but if you want to compile it, run;
+Run;
 ```
- g++ main.cpp include/calculation.cpp include/database.cpp -o poke_tool.exe
+ g++ main.cpp include/calculation.cpp include/database.cpp -o pivnote.exe
 ```
 
 ## How to use?
