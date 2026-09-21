@@ -7,11 +7,11 @@ using namespace std;
 void display_help(){
     cout<< R"(
 ===========================================================
-                   POKEMON TOOL - HELP         
+                    PIVNote - HELP         
 ===========================================================
     
 Main usage:
-    pokemon_tool.exe <mode> [options]
+    pivnote.exe <mode> [options]
 
 Modes Overview:
     -stat           Calculate a Pokemon's final stats

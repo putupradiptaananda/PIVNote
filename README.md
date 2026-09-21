@@ -17,7 +17,7 @@ Just type `-help` or read this;
     
 Main usage:
 
-    pokemon_tool.exe <mode> [options]
+    pivnote.exe <mode> [options]
 
 Modes Overview:
 
